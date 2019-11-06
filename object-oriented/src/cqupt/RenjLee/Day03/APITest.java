@@ -21,5 +21,6 @@ public class APITest {
         System.out.println(new Date(System.currentTimeMillis()));
         SimpleDateFormat df = new SimpleDateFormat("yyyy年MM月dd日");
         System.out.println(df.format(new Date(System.currentTimeMillis())));
+        System.out.println("git test!");
     }
 }
